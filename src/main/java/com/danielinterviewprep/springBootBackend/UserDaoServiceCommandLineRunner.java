@@ -21,7 +21,7 @@ public class UserDaoServiceCommandLineRunner implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		User u = new User("Jack", "Admin");
 		long insert = userDaoService.insert(u);
-		log.error("SUCCESS!!!!");
+		log.info ("SUCCESS!!!!");
 	}
 
 	
